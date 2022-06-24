@@ -1,0 +1,43 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(252, 206, 214);
+}
+
+div {
+    height: 80px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: royalblue;
+
+    font-size: 25px;
+}
+
+h1 {
+    margin-left: 25px;
+
+    color: whitesmoke;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+
+    list-style-type: none;
+}
+
+li {
+    cursor: pointer;
+
+    color: whitesmoke;
+
+    margin-right: 25px;
+}
