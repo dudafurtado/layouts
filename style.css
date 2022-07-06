@@ -43,13 +43,13 @@ header a {
 }
 
 main {
-    height: 90%;
-
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     gap: 50px;
+
+    padding: 38.5px 0;
 
     color: var(--middle-green);
 }
